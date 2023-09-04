@@ -1,7 +1,10 @@
-## NextJS PostgresSQL 
+## NextJS React PostgresSQL tailwindcss 
 
+Por motivos didactivos y de prueba del projecto se subio al repo el .env de la base de datos 
 
-actualizar la url de la base de datos de postgresSQL en el .env  DATABASE_URL=postgresql://postgres:MwSkcKk3pCnrME0Q6HEN@containers-us-west-47.railway.app:6993/railway
+## Consta con frontend con react y tailwind diseño responsivo a distintos tipos de pantallas
+Backend con sus endpoints crud y Base de datos en postgres  y modelo de tareas
+Integracion back y front 
 
 comando migrar modelo base de datos y inicializar conexion
 npx prisma migrate dev --name "Intialized database"
