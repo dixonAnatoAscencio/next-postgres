@@ -3,7 +3,7 @@
 Por motivos didactivos y de prueba del projecto se subio al repo el .env de la base de datos 
 
 ## Consta con frontend con react y tailwind diseño responsivo a distintos tipos de pantallas
-Backend con sus endpoints crud y Base de datos en postgres  y modelo de tareas
+Backend con sus endpoints crud y Base de datos en postgres, prisma para definir los modelos de la db
 Integracion back y front 
 ```bash
 comando migrar modelo base de datos y inicializar conexion
