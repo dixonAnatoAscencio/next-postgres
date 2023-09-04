@@ -6,8 +6,7 @@ Por motivos didactivos y de prueba del projecto se subio al repo el .env de la b
 Backend con sus endpoints crud y Base de datos en postgres, prisma para definir los modelos de la db
 Integracion back y front 
 ```bash
-comando migrar modelo base de datos y inicializar conexion
-npx prisma migrate dev --name "Intialized database"
+en el archivo .env esta inicializada la conexion a la base de datos en postgres
 ```
 ```bash
 npm install 
