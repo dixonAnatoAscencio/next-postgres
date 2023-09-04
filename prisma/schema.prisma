@@ -1,0 +1,21 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+//PostgresSQL
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+//Modelo de la base de datos con prisma client, postgresSQL
+model Wishlist {
+  id  Int @id @default(autoincrement())
+  title   String
+  link   String?
+  userId  Int 
+  createdAt DateTime @default(now())
+}
