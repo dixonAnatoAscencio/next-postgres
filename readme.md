@@ -9,8 +9,8 @@ Integracion back y front
 en el archivo .env esta inicializada la conexion a la base de datos en postgres
 ```
 ```bash
-npm install 
-npm run dev
+npm install (para instalar las dependencias)
+npm run dev  (para levantar el frontend en nextjs)
 ```
 
 update .env file with your [Railway](http://railway.app) postgreSQL DATABASE_URL
